@@ -33,6 +33,7 @@ int main()
 
         if (code == 2)
         {
+            //此处含有一个删除bug
             printf("删除最后一个敏感字符\n");
             index--;
             printf("删除成功，点击回车继续\n");
@@ -42,7 +43,15 @@ int main()
         }
         if (code == 3)
         {
-            /* code */
+
+            for (int i = 0; i < index; i++)
+            {
+                printf("第%d个敏感字符为%c\n", i + 1, arr[i]);
+            }
+            printf("显示成功，点击回车继续\n");
+            char x;
+            scanf("%c", &x);
+            scanf("%c", &x);
         }
         if (code == 4)
         {
