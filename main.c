@@ -33,12 +33,12 @@ int main()
 
         if (code == 2)
         {
-            // printf("删除最后一个敏感字符\n");
-            // index--;
-            // printf("删除成功，点击回车继续\n");
-            // char x;
-            // scanf("%c", &x);
-            // scanf("%c", &x);
+            printf("删除最后一个敏感字符\n");
+            index--;
+            printf("删除成功，点击回车继续\n");
+            char x;
+            scanf("%c", &x);
+            scanf("%c", &x);
         }
         if (code == 3)
         {
